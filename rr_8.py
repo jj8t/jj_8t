@@ -31,11 +31,11 @@ def rr1():
 		ii = input('‏‏‏⠀')
 		if ii == '1':
 			il.sleep(1)
-			Aa = input(C+'\n'+'[~] ادخل اسم الملف [~]' )
+			Aa = input(C+'\n'+'[~] ادخل اسم الملف [~]\n‏‏‏⠀' )
 			with open(Aa+'.txt','w') as rr:
 				rr.write(r)
 				il.sleep(1)
-				print(F+'\n'+'\nتم حفظ الروابط في ملف :',Aa)
+				print(F+'\n'+'\nتم حفظ الروابط في ملف\n‏‏‏⠀','['+Aa+']')
 		elif ii == '2':
 			il.sleep(1)
 			rr1()
